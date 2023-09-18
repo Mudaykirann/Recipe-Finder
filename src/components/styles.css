@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bona Nova', serif;
+    transition: .5s;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fcde67;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: #030e12;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.search{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size: 1rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px  #fafafa;
+    cursor: pointer;
+    margin: 25px 0;
+  }
+  
+  .btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+.search-bar{
+    margin: 1rem 0;
+    width:400px;
+    height: 40px;
+    border: none;
+    font-size: 1.25rem;
+    outline: none;
+    border-radius: 0.85rem;
+    padding: 0.3rem 1rem;
+}
+.container{
+    width: 80%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 95%;
+    height: auto;
+    border-radius: 1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    border-radius: 1rem ;
+}
+.card h3{
+    color: black;
+    font-size: 15px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 0.75rem;
+}
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}
+.numBox{
+    width: 50px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1304e9;
+    margin: 0 5px 0 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.numBox h3{
+    color: crimson;
+}
+.numBox:hover{
+    background-color: #fcde67;
+    color: #000;
+}
+
+.content img{
+   width: 15rem;
+   height: 15rem;
+   margin:1rem 20rem;
+
+}
+.content .inner-content{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.content .inner-content>h1{
+    font-size: 44px;
+    color: dodgerblue;
+    margin-bottom: 1.2rem;
+}
+
+.content .inner-content>h4{
+    font-size: 18px;
+}
+.content .inner-content h2,h3{
+    color: rgb(64, 66, 64);
+}
+.recipe-details{
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients .ingredItems{
+    list-style: none;
+    margin-bottom: 32rem;
+}
+.ingredients .ingredItem{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+.instructions{
+    margin-bottom: 18rem;
+}
+.frame{
+    height: 515px;
+    width: 100%;
+}
+.video{
+    width:80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
